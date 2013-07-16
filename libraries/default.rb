@@ -31,3 +31,13 @@ class Chef
     end
   end
 end
+
+class Chef
+  class Resource
+    class ChefGem < Chef::Resource::Package::GemPackage
+      def after_created
+        Gem.clear_paths
+      end
+    end
+  end
+end
