@@ -14,7 +14,7 @@ class Chef
 
   module DSL
     module IncludeRecipe
-      def include_recipe_now(*recipe_names)
+      def include_recipe_now
         original_resource_collection = run_context.resource_collection
         begin
           run_context.resource_collection = SubResourceCollection.new(original_resource_collection)
