@@ -1,4 +1,5 @@
 class Chef
+  # SubResourceCollection
   class SubResourceCollection < ResourceCollection
     def initialize(parent)
       @parent = parent
@@ -13,6 +14,7 @@ class Chef
   end
 
   module DSL
+    # Adding a new method to the DSL
     module IncludeRecipe
       def include_recipe_now(*recipe_names)
         original_resource_collection = run_context.resource_collection

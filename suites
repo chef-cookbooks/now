@@ -1,0 +1,6 @@
+suites:
+  - name: default
+    run_list:
+      - recipe[now_test::default]
+      - recipe[now_test::third]
+
