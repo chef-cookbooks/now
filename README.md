@@ -14,7 +14,7 @@ from Poise. https://github.com/poise/poise
 License & Authors
 -----------------
 - Author:: Noah Kantrowitz (<noah@coderanger.net>)
-- Author:: Sean OMeara (<someara@getchef.com>)
+- Author:: Sean OMeara (<someara@chef.io>)
 
 ```text
 Copyright:: 2014 Chef
