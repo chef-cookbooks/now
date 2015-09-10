@@ -1,12 +1,18 @@
-# Offence count: 1
+AllCops:
+  Exclude:
+    - vendor/**/*
+
+AlignParameters:
+  Enabled: false
+Encoding:
+  Enabled: false
+LineLength:
+  Enabled: false
+MethodLength:
+  Enabled: false
+SingleSpaceBeforeFirstArg:
+  Enabled: false
 Documentation:
   Enabled: false
-
-# Offence count: 1
-# Configuration parameters: CountComments.
-MethodLength:
-  Max: 12
-
-# Offence count: 2
-LineLength:
-  Max: 99
+Metrics/AbcSize:
+  Enabled: false
