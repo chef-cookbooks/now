@@ -1,5 +1,9 @@
 now cookbook
 ============
+
+[![Build Status](https://travis-ci.org/chef-cookbooks/now.svg?branch=master)](http://travis-ci.org/chef-cookbooks/now)
+[![Cookbook Version](https://img.shields.io/cookbook/v/now.svg)](https://supermarket.chef.io/cookbooks/now)
+
 This cookbook is a pure library cookbook that monkey patches the core
 Chef DSL to provide a method called `include_recipe_now`. This method
 will converge a recipe immediately, as it is encountered during
