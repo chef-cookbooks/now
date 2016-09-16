@@ -6,5 +6,6 @@ description       'library cookbook providing special ordering method include_re
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version           '0.3.2'
 
-source_url 'https://github.com/chef-cookbooks/now' if respond_to?(:source_url)
-issues_url 'https://github.com/chef-cookbooks/now/issues' if respond_to?(:issues_url)
+source_url 'https://github.com/chef-cookbooks/now'
+issues_url 'https://github.com/chef-cookbooks/now/issues'
+chef_version '>= 12.1'
