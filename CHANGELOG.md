@@ -2,6 +2,10 @@ now cookbook CHANGELOG
 ======================
 This file is used to list changes made in each version of the now cookbook.
 
+## 1.0.0 (2016-09-16)
+- Testing updates
+- Require Chef 12.1
+
 v0.3.2 (2015-10-21)
 -------------------
 * Added requirements section to the readme to clarify what distros are supported and the requirement of Chef 11+
